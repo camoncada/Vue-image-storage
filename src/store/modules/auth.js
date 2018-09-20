@@ -5,7 +5,7 @@ const state = {
 };
 
 const getters = {
-  isLoggedIn: (state) => !!state.token
+  isLoggedIn: state => !!state.token
 };
 
 const actions = {
@@ -29,4 +29,4 @@ export default {
   getters,
   actions,
   mutations
-}
+};
